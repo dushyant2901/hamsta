@@ -27,7 +27,7 @@ const Navbar = ({ setSideBarOpen }) => {
               <Link to={item.link}>
                 <div className=" flex flex-col  items-center justify-center ">
                   <span>{item.icon} </span>
-                  <span className="text-xs pt-1 hidden lg:block">
+                  <span className="text-xs tracking-wide pt-1 hidden lg:block lg:text-base">
                     {item.text}{" "}
                   </span>
                 </div>

@@ -1,14 +1,14 @@
 import React from "react";
 
-const CartIcon = () => {
+const CartFillIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
+      fill="rgb(248 ,113 ,113 )"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="currentColor"
-      className="w-7 h-7 lg:w-8 lg:h-8"
+      stroke="rgb(248 ,113 ,113 )"
+      className="w-10 h-10"
     >
       <path
         strokeLinecap="round"
@@ -19,4 +19,4 @@ const CartIcon = () => {
   );
 };
 
-export default CartIcon;
+export default CartFillIcon;
