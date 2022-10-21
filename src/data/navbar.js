@@ -1,7 +1,7 @@
 import { CartIcon, WishListIcon } from "../icons";
 const NavLinksData = [
   { text: "Home", link: "/" },
-  { text: "Shop Now", link: "/shop" },
+  { text: "Shop Now", link: "/products" },
   { text: "About", link: "/about" },
   { text: "Contact", link: "/contact" },
 ];

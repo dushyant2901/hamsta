@@ -1,11 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const navItems = [
-  { text: "Home", link: "/" },
-  { text: "Shop Now", link: "/shop" },
-  { text: "About", link: "/about" },
-  { text: "Contact", link: "/contact" },
-];
+import { NavLinksData } from "../../data/navbar";
+
 const NavLinks = ({ type }) => {
   const classes = `flex ${
     type ? "flex-col space-y-3" : "flex-row space-x-10 "
@@ -13,7 +9,7 @@ const NavLinks = ({ type }) => {
 
   return (
     <ul className={classes}>
-      {navItems.map((item, index) => {
+      {NavLinksData.map((item, index) => {
         console.log(index);
         return (
           <NavLink
@@ -25,6 +21,7 @@ const NavLinks = ({ type }) => {
                 isActive ? "text-pink border-b-pink" : ""
               } ${type ? "  hover:pl-2 " : ""}`
             }
+            // TODO: close sidebar on clicking on any link.
           >
             {item.text}
           </NavLink>
