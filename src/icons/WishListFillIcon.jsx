@@ -1,15 +1,13 @@
-import React from "react";
-
-const WishListIcon = ({ color }) => {
+const WishListFillIcon = () => {
   return (
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        fill="none"
+        fill="red"
         viewBox="0 0 24 24"
         strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-7 h-7 lg:w-8 lg:h-8"
+        stroke="red"
+        className="w-7 h-7"
       >
         <path
           strokeLinecap="round"
@@ -21,4 +19,4 @@ const WishListIcon = ({ color }) => {
   );
 };
 
-export default WishListIcon;
+export default WishListFillIcon;
