@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <>
       <Navigation />
-      <main>
+      <main className="mt-14 md:mt-[61px] lg:mt-[84px]">
         <Outlet />
       </main>
       <Footer />
