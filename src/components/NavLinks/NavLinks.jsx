@@ -17,7 +17,7 @@ const NavLinks = ({ type }) => {
             to={item.link}
             key={index}
             className={({ isActive }) =>
-              ` w-max border border-b-4 border-transparent pb-1 transition ease-in-out delay-150  hover:border-b-pink  tracking-wide text-lg lg:text-2xl ${
+              ` w-max border border-b-4 border-transparent pb-1 transition-all  hover:border-b-pink  tracking-wide text-lg lg:text-2xl ${
                 isActive ? "text-pink border-b-pink" : ""
               } ${type ? "  hover:pl-2 " : ""}`
             }
