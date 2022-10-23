@@ -2,11 +2,11 @@ import React from "react";
 import { CartFillIcon, WishListIcon } from "../../icons";
 const ProductCard = ({ item }) => {
   return (
-    <article className="w-[80%] xs:w-[45%] sm:w-[45%] md:w-1/4 lg:w-1/5 xl:w-1/6 flex flex-col  justify-center items-center  rounded-xl  hover:shadow-xl group relative mx-2 my-3 md:mx-4 md:my-5 lg:mx-3 lg:my-4  border-[1px] border-pink sm:hover:scale-105 hover:scale-[1.025] transition-all">
-      <div className="w-full object-cover  rounded-lg overflow-hidden">
+    <article className="w-[80%] xs:w-[45%] sm:w-[45%] md:w-1/4 lg:w-1/5 xl:w-1/6 flex flex-col  justify-center items-center  rounded-xl  hover:shadow-xl group relative mx-2 my-3 md:mx-4 md:my-5 lg:mx-3 lg:my-4  border-[1px] border-pink sm:hover:scale-105 hover:scale-[1.025] transition-all overflow-hidden ">
+      <div className="w-full object-cover   rounded-xl overflow-hidden">
         <img
           src="image/testimage.jpg"
-          className="w-full h-full group-hover:hidden"
+          className="w-full h-full group-hover:hidden "
         />
         <img
           src="image/testimage2.jpg"
@@ -15,7 +15,7 @@ const ProductCard = ({ item }) => {
         {/* TODO: second image on hover */}
       </div>
 
-      <div className="invisible absolute top-2 left-4 bottom-0   w-fit group-hover:visible  ">
+      <div className="invisible absolute top-3 left-3 bottom-0   w-fit group-hover:visible  ">
         <WishListIcon />
       </div>
       <div className="pb-4 px-3  sm:px-3 flex flex-col items-center relative">
