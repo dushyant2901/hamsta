@@ -5,7 +5,7 @@ import NavLinks from "../NavLinks";
 const Sidebar = ({ setSideBarOpen }) => {
   // TODO: smooth transition while opening and closing of sidebar.
   return (
-    <aside className="w-2/4 absolute top-0 bottom-0 left-0 flex flex-col  md:hidden p-4 bg-slate-50 z-20">
+    <aside className="w-2/4 fixed top-0 bottom-0 left-0 flex flex-col  md:hidden p-4 bg-slate-50 z-30 shadow-lg">
       <div className="sidebar-top mb-5" onClick={() => setSideBarOpen(false)}>
         <CloseIcon />
       </div>

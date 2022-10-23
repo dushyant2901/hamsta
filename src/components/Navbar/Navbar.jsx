@@ -6,8 +6,8 @@ import { NavActionsData } from "../../data/navbar";
 import NavBrand from "../NavBrand";
 const Navbar = ({ setSideBarOpen }) => {
   return (
-    <nav className=" ">
-      <div className=" px-4 py-3 container mx-auto flex items-center justify-between ">
+    <nav className=" fixed top-0 left-0 right-0 z-20 bg-white shadow-lg">
+      <div className=" px-2 sm:px-3 md:px-4 py-3 lg:px-6 xl:px-10 flex items-center justify-between ">
         <div className="flex space-x-4 items-center font-krona">
           <div
             className="open block md:hidden "
@@ -21,7 +21,7 @@ const Navbar = ({ setSideBarOpen }) => {
           <NavLinks />
         </div>
 
-        <div className="action-items flex  space-x-4 items-center ">
+        <div className="action-items flex  space-x-3 lg:space-x-5 items-center ">
           {NavActionsData.map((item) => {
             return (
               <Link to={item.link}>
