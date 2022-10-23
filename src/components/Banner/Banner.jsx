@@ -19,7 +19,7 @@ const Banner = () => {
           NOW
         </span>
         <div className="mt-5 lg:mt-6">
-          <Button text="Shop Now" />
+          <Button text="Shop Now" type="banner-btn" />
         </div>
       </article>
     </section>
