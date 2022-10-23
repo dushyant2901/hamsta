@@ -3,7 +3,7 @@ import ProductCard from "../ProductCard";
 
 const SectionData = ({ data }) => {
   return (
-    <div className="flex flex-wrap justify-evenly items-center space-y-6 space-x-3 py-3">
+    <div className="flex flex-wrap  items-center justify-center py-3">
       {data.map((item) => {
         return <ProductCard item={item} />;
       })}
