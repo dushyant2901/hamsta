@@ -7,10 +7,10 @@ import NavBrand from "../NavBrand";
 const Navbar = ({ setSideBarOpen }) => {
   return (
     <nav className=" fixed top-0 left-0 right-0 z-20 bg-white shadow-lg">
-      <div className=" px-2 sm:px-3 md:px-4 py-3 lg:px-6 xl:px-10 flex items-center justify-between ">
-        <div className="flex space-x-4 items-center font-krona">
+      <div className=" px-2 sm:px-3 md:px-4 py-3 lg:px-7 xl:px-12 flex items-center justify-between ">
+        <div className="flex space-x-4 md:space-x-0 items-center font-krona">
           <div
-            className="open block md:hidden "
+            className="open block md:hidden hover:rotate-90 transition-all"
             onClick={() => setSideBarOpen(true)}
           >
             <Hamburger />
@@ -21,7 +21,7 @@ const Navbar = ({ setSideBarOpen }) => {
           <NavLinks />
         </div>
 
-        <div className="action-items flex  space-x-3 lg:space-x-5 items-center ">
+        <div className="action-items flex  space-x-4 lg:space-x-6 items-center ">
           {NavActionsData.map((item) => {
             return (
               <Link to={item.link}>
