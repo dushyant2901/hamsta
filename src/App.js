@@ -11,9 +11,9 @@ import {
   Cart,
   SingleProduct,
   WishList,
-  Product,
   About,
   Contact,
+  ProductsPage,
 } from "./pages";
 
 const router = createBrowserRouter(
@@ -25,7 +25,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
 
-      <Route path="/products" element={<Product />} />
+      <Route path="/products" element={<ProductsPage />} />
       <Route path="/products/:id" element={<SingleProduct />} />
     </Route>
   )
