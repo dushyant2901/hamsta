@@ -7,6 +7,10 @@ import CartFillIcon from "./CartFillIcon";
 import TwitterIcon from "./TwitterIcon";
 import LinkedinIcon from "./LinkedinIcon";
 import GithubIcon from "./GithubIcon";
+import DeliveryIcon from "./DeliveryIcon";
+import ProductIcon from "./ProductIcon";
+import PaymentIcon from "./PaymentIcon";
+
 export {
   CloseIcon,
   Hamburger,
@@ -17,4 +21,7 @@ export {
   TwitterIcon,
   LinkedinIcon,
   GithubIcon,
+  PaymentIcon,
+  ProductIcon,
+  DeliveryIcon,
 };
